@@ -78,7 +78,7 @@ Then, source your configuration (executing `:source $MYVIMRC`) and run `:PaqInst
 | Option | Type     |                                                           |
 |--------|----------|-----------------------------------------------------------|
 | as     | string   | Name to use for the package locally                       |
-| branch | string   | Branch of the repository                                  |
+| branch | string   | Branch (or the tag) of the repository                     |
 | build  | function | Lua function to run after install/update                  |
 | build  | string   | Shell command to run after install/update                 |
 | build  | string   | Prefixed with a ':' will run a vim command                |
